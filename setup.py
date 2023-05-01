@@ -47,6 +47,7 @@ try:
         name='nvitop',
         version=version.__version__,
         extras_require={
+            'prometheus': ['prometheus-client'],
             'lint': [
                 'black >= 22.6.0',
                 'isort',
